@@ -8,11 +8,19 @@
     <title>Cameron Pittman: Portfolio</title>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<!--     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/print.css" rel="stylesheet">
-
+    <style>
+       @font-face {
+        font-family: Open Sans; /* Гарнитура шрифта */
+        src: url(fonts/Open_Sans/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+       }
+       h1 {
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
@@ -37,10 +45,10 @@
       </div>
       <br>
 
-      <div class="me">
+      <div class="me" style="padding: 0;">
         <a href="/"><img src="img/myprofile.jpg"></a>
-        <p>Zhukov Andrey Sergeevich
-        </p>
+        <p>Zhukov Andrey Sergeevich</p>
+        <br><br>
       </div>
       <div class="hero">
       <p>
